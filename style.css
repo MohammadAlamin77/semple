@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.tc{
+    text-align: center;
+}
+.tl{
+    text-align: left;
+}
+.tr{
+    text-align: right;
+}
+.fixwith{
+    margin: auto;
+    width: 100%;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+/* headercss */
+.header{
+    background-color: aqua;
+}
+.header-left{
+    float: left;
+    width: 30%;
+    
+}
+.header-left img{
+    width: 150px;
+}
+.header-right {
+    float: right;
+    width: 70%;
+
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-right: -4px;
+}
+.header-right ul li a{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 0px 10px;
+    line-height: 60px;
+    border-left: 1px solid;
+    transition: .5s;
+}
+.header-right ul li a:hover{
+    background-color: blue;
+}
+/* banner */
+.banner{
+    background: url(https://cdn.pixabay.com/photo/2016/05/27/08/51/mobile-phone-1419275_960_720.jpg) no-repeat center;
+    padding: 130px 0px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner .bannercaption{}
+.banner .bannercaption h1 {
+
+    display: inline-block;
+    background: #959595;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 40px;
+}
+.banner .bannercaption h2 {
+    /* display: inline-block; */
+    background: #7ac8ff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    max-width: 245px;
+    padding: 10px 0px;
+    margin: auto;
+}
+i{
+
+}
+/* service sectoin */
+.serviceitem{
+    width: 31.3%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-right: 1%;
+    margin-left: 1%;
+    box-sizing: border-box;
+}
+.services{
+    margin-top: 50px;
+}
+.serviceitem{}
+.serviceitem span {
+    background: blue;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid hotpink;
+    border-radius: 10px 0px;
+    margin: 5px;
+}
+.serviceitem h2 {
+    padding: 10px;
+    font-style: italic;
+    margin: 5px;
+}
+.serviceitem p {
+    padding: 10px;
+    margin: 5px;
+}
+.about {
+    margin: 40px;
+    /* max-width: 600px; */
+    font-size: 20px;
+    padding: 10px;
+}
+.about h2 {
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+    line-height: 10px;
+}
+.about p {
+    line-height: 30px;
+}
+.blogesection {
+    margin: 30px;
+}
+.blogesection .blogeleft {
+    float: left;
+    width: 70%;
+}
+.blogesection .blogeleft img {
+    float: left;
+    width: 45%;
+    margin-right: 12px;
+    /* margin-top: 10px; */
+    padding: 10px;
+}
+.blogesection .blogeleft p {
+    padding: 10px;
+    font-size: 23px;
+}
+.blogesection .blogeright{
+    float: right;
+    width: 25%;
+}
+.blogesection .blogeright .notice{}
+.blogesection .blogeright .notice h2 {
+    padding: 10px;
+    font-style: italic;
+    border-bottom: 2px solid #ddd;
+}
+
+.blogesection .blogeright .notice ul{}
+.blogesection .blogeright .notice ul li {
+    background: #ddd;
+    border: 1px solid;
+    list-style: none;
+    margin: 6px;
+    padding: 0 5px;
+}
+/* footer */
+.footer{
+    background: rgb(97, 97, 97);
+    color: #fff;
+    line-height: 30px;
+}
+.footer .footerleft{
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+.footer .footerleft p{}
+.footer .footerright{
+    float: right;
+    width: 50%;
+}
+.footer .footerright ul{}
+.footer .footerright ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.footer .footerright .social{}
+.footer .footerright .social li i{
+    color: #ddd;
+}
